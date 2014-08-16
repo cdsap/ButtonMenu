@@ -86,4 +86,14 @@ public class SecondButtonMenuVM extends SimpleButtonMenuVM {
 			photo.setSubject(takePictureSubtitle);
 		}
 	}
+
+	public void showLoading() {
+		loading.showLoading();
+	}
+
+	public void closeLoading() {
+		loading.closeLoading();
+	}
+
+	public boolean isLoading(){ return loading.isLoading();}
 }
